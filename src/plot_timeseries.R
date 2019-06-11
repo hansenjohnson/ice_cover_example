@@ -19,7 +19,8 @@ library(ggplot2)
 # plot
 plt = ggplot(df)+
   geom_path(aes(x=year, y=ice_cover))+
-  labs(x="Year", y=expression(paste("Sea ice area [million"," km"^"2","]")))+ theme_bw()
+  labs(x="Year", y=expression(paste("Sea ice area [million"," km"^"2","]")))+ 
+  theme_dark()
 
 # save
 ggsave(plt, filename = outfile, height = 3, width = 5, units = "in", dpi = 300)

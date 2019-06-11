@@ -23,7 +23,7 @@ figures - all figures
 master.R - master script to reproduce full analysis
 readme.md - this file
 
-## essionsInfo()
+## `sessionInfo()`
 
 ```
 R version 3.3.3 (2017-03-06)
